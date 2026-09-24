@@ -61,16 +61,13 @@
   <section id="publications" class="pubs">
     <h2>Selected publications</h2>
     <ol>
-      <li><span class="year">2026</span><div>
-        <a href="https://aclanthology.org/2026.acl-long.1991/">Credal Concept Bottleneck Models for Epistemic–Aleatoric Uncertainty Decomposition</a>
-        <span>T. Mukherjee, T. Bailleux, P. Marquis, Z. Bouraoui · ACL 2026 (main)</span></div></li>
-      <li><span class="year">2026</span><div>
-        <a href="https://aclanthology.org/2026.findings-acl.1800/">Explanation Quality Assessment as Ranking with Listwise Rewards</a>
-        <span>T. Bailleux*, T. Mukherjee*, E. Lonca, P. Marquis, Z. Bouraoui · Findings of ACL 2026</span></div></li>
-      <li><span class="year">2025</span><div>
-        <a href="https://aclanthology.org/2025.starsem-1.33/">Connecting Concept Layers and Rationales to Enhance Language Model Interpretability</a>
-        <span>T. Bailleux, T. Mukherjee, P. Marquis, Z. Bouraoui · *SEM 2025</span></div></li>
+      {% for p in site.data.publications %}
+      <li><span class="year">{{ p.year }}</span><div>
+        <a href="{{ p.url }}">{{ p.title }}</a>
+        <span>{{ p.authors }} · {{ p.venue }}</span></div></li>
+      {% endfor %}
     </ol>
+    <!-- TODO (optional): a second list, e.g. preprints, from its own data file -->
   </section>
 
   <section id="contact" class="contact">
