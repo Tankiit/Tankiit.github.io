@@ -1,0 +1,18 @@
+# Newest first. To add a paper, copy a block and paste it at the top.
+- year: 2026
+  title: "Credal Concept Bottleneck Models for Epistemic–Aleatoric Uncertainty Decomposition"
+  url: "https://aclanthology.org/2026.acl-long.1991/"
+  authors: "T. Mukherjee, T. Bailleux, P. Marquis, Z. Bouraoui"
+  venue: "ACL 2026 (main)"
+
+- year: 2026
+  title: "Explanation Quality Assessment as Ranking with Listwise Rewards"
+  url: "https://aclanthology.org/2026.findings-acl.1800/"
+  authors: "T. Bailleux*, T. Mukherjee*, E. Lonca, P. Marquis, Z. Bouraoui"
+  venue: "Findings of ACL 2026"
+
+- year: 2025
+  title: "Connecting Concept Layers and Rationales to Enhance Language Model Interpretability"
+  url: "https://aclanthology.org/2025.starsem-1.33/"
+  authors: "T. Bailleux, T. Mukherjee, P. Marquis, Z. Bouraoui"
+  venue: "*SEM 2025"
