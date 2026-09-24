@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -39,12 +41,8 @@
     <div>
       <h1>Tanmoy Mukherjee</h1>
       <p class="role">Senior Researcher · CRIL, CNRS UMR 8188 · Université d'Artois</p>
-      <p class="lede">
-        I work on when a learning system's uncertainty can be trusted: which structural conditions — named concepts, compiled symbolic frames, decision procedures — must hold before an uncertainty report means anything, and how to build models that satisfy them.
-      </p>
-      <p>
-        Before CRIL I was a postdoctoral researcher at VUB (Brussels), working on medical imaging and out-of-distribution detection. I hold a PhD in multimodal learning from Queen Mary University of London.
-      </p>
+            {% capture intro %}{% include intro.md %}{% endcapture %}
+      {{ intro | markdownify }}
       <p class="links">
         <a href="mailto:mukherjee@cril.fr">Email</a>
         <a href="https://github.com/Tankiit">GitHub</a>
